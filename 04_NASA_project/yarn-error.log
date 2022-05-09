@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /Users/memphisdiangelis/.yarn/bin/yarn.js run watch
+
+PATH: 
+  /Users/memphisdiangelis/.yarn/bin:/Users/memphisdiangelis/.config/yarn/global/node_modules/.bin:/Users/memphisdiangelis/.poetry/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/memphisdiangelis/.yarn/bin:/Users/memphisdiangelis/.config/yarn/global/node_modules/.bin:/Users/memphisdiangelis/.poetry/bin:/Users/memphisdiangelis/.fig/bin:/Users/memphisdiangelis/.local/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  18.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (/Users/memphisdiangelis/.yarn/lib/cli.js:2314:15)
+      at /Users/memphisdiangelis/.yarn/lib/cli.js:62430:11
+      at Generator.next (<anonymous>)
+      at step (/Users/memphisdiangelis/.yarn/lib/cli.js:310:30)
+      at /Users/memphisdiangelis/.yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/Users/memphisdiangelis/.yarn/lib/cli.js:5301:28)
+      at /Users/memphisdiangelis/.yarn/lib/cli.js:307:12
+      at realRunCommand (/Users/memphisdiangelis/.yarn/lib/cli.js:62515:23)
+      at action.action (/Users/memphisdiangelis/.yarn/lib/cli.js:62576:16)
+
+npm manifest: 
+  {
+  	"name": "completenodejsdev2002",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"server": "cd server && npm run watch",
+  		"watch": ""
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"bugs": {
+  		"url": "https://github.com/earthtomemphis/CompleteNodeJSDev2002/issues"
+  	},
+  	"homepage": "https://github.com/earthtomemphis/CompleteNodeJSDev2002#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
